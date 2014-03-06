@@ -4,8 +4,8 @@
         "y": 2
     },
     "tileSize": {
-        "x": 100,
-        "y": 100
+        "width": 100,
+        "height": 100
     },
     "tiles": [
         {
@@ -18,7 +18,7 @@
                 "x": 1,
                 "y": 1
             },
-            "cost": 1000,
+            "price": 1000,
             "status": "available"
         },
         {
@@ -31,8 +31,9 @@
                 "x": 1,
                 "y": 1
             },
-            "cost": 1000,
-            "status": "donated-open"
+            "price": 1000,
+            "status": "donated-open",
+            "donationDate": "2014-02-25T20:15:00Z"
         },
         {
             "id": 3,
@@ -44,8 +45,9 @@
                 "x": 2,
                 "y": 1
             },
-            "cost": 2000,
-            "status": "available"
+            "price": 2000,
+            "status": "donated",
+            "donationDate": "2014-02-27T10:12:00Z"
         }
     ]
 }

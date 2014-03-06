@@ -1,0 +1,14 @@
+<div class="soccer-field">
+    <div class="tile"
+         ng-repeat="tile in field.tiles"
+         id="{{'tile-' + tile.id}}"
+         ng-style="tileStyle(tile)"
+         ng-switch on="tile.status">
+        <a ng-switch-when="available"
+           ng-href="{{ buildBpDonationFormUrl(tile) }}">
+            donate: {{tile.price / 100 | currency: "€" }}
+        </a>
+        <span ng-switch-when="donated-open">{{ tile.donationDate | amDateFormat: 'LL' }}</span>
+        <span ng-switch-when="donated">{{ tile.donationDate | amDateFormat: 'LL' }}</span>
+    </div>
+</div>
