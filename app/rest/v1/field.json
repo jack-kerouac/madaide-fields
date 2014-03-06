@@ -1,0 +1,51 @@
+{
+    "size": {
+        "x": 2,
+        "y": 2
+    },
+    "tileSize": {
+        "x": 100,
+        "y": 100
+    },
+    "tiles": [
+        {
+            "id": 1,
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "size": {
+                "x": 1,
+                "y": 1
+            },
+            "cost": 1000,
+            "status": "available"
+        },
+        {
+            "id": 2,
+            "position": {
+                "x": 1,
+                "y": 0
+            },
+            "size": {
+                "x": 1,
+                "y": 1
+            },
+            "cost": 1000,
+            "status": "donated-open"
+        },
+        {
+            "id": 3,
+            "position": {
+                "x": 0,
+                "y": 1
+            },
+            "size": {
+                "x": 2,
+                "y": 1
+            },
+            "cost": 2000,
+            "status": "available"
+        }
+    ]
+}
