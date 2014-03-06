@@ -1,7 +1,9 @@
 {
   "name": "madaidefields",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "newrelic": "~1.3.2"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
