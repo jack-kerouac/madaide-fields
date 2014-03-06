@@ -276,6 +276,15 @@ module.exports = function (grunt) {
               'app/heroku/newrelic.js',
               'package.json'
           ]
+        },
+        // REST API DUMMY DATA
+        {
+            expand: true,
+            flatten: true,
+            dest: '<%= yeoman.dist %>/rest/v1',
+            src: [
+                'app/rest/v1/field.json'
+            ]
         }]
       },
       styles: {
